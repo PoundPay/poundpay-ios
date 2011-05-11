@@ -198,6 +198,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PoundTest2_Prefix.pch;
 				INFOPLIST_FILE = "PoundTest2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = PoundTest2;
 				SDKROOT = iphoneos;
 			};
@@ -211,6 +212,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PoundTest2_Prefix.pch;
 				INFOPLIST_FILE = "PoundTest2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = PoundTest2;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
