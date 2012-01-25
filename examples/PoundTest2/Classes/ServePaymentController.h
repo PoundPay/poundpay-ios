@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define PAYMENT_DONE_URL @"nothing://PAYMENT_DONE_URL"
+#define PAYMENT_DONE_URL @"http://example.com/callback"
 
 @interface ServePaymentController : UIViewController <UIWebViewDelegate>{
 	NSString *cardholderName;

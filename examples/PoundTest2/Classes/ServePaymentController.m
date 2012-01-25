@@ -20,9 +20,11 @@
 						   PAYMENT_DONE_URL, @"redirect_uri",	// required
 						   cardholderName, @"cardholder_name",	// optional
 						   nil];
-	NSString *path = @"http://www-sandbox.poundpay.com/pmp/mobile";
-	NSString *url = [NSString stringWithFormat: @"%@?%@", path, [query urlEncodedString]];
+	NSString *path = @"http://localhost:5000/payments/";
+	NSString *url = [NSString stringWithFormat: @"%@?mobile=1&%@", path, [query urlEncodedString]];
 	
+    NSLog(@"%@", url);
+    
 	// Prepare UIWebView
 	NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
 	webView.delegate = self;
